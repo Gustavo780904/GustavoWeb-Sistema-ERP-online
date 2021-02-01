@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+    <nav th:fragment="navbar">
+        <div class="navbar">
+            <div class="col-md-1">
+                <img class="logo" src="imagens/logoMAC.jpg" alt="logo Mac">
+            </div>
+            <div class="col-md-5">
+                <h5>GustavoWeb-Sistema ERP online</h5>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+
+
+
+        </div>
+        <div class="navbar navbar-expand-md bg-info navbar-small">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li><a id="home" class="btn rosa bnt-border-radius corfont m-1 px-4" href="/">Cadastros</a></li>
+                    <li><a id="clientes" class="btn rosa bnt-border-radius  corfont m-1 px-4" href="/clientes">Movimentação</a> </li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/agenda">Pesquisas</a></li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/procedimentos">Graficos</a></li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/produtos">Estornos</a></li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/venda">Ferramentas</a></li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/venda">Sobre</a></li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/venda">Novidades</a></li>
+                    <li><a class="btn bnt-border-radius corfont m-1 px-4" href="/venda">Suporte</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</body>
+
+</html>

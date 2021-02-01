@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+/* navbar */
+
+.logo {
+    z-index: -3;
+}
+
+nav {
+    background-image: linear-gradient( rgba(74, 74, 77, 0.5), rgba(74, 74, 77, 0.5)), url("/imagens/cabecalho2.jpg");
+    background-size: cover;
+    opacity: 0.95;
+    -moz-opacity: 0.95;
+    filter: alpha(opacity=95);
+}
+
+.bg-info {
+    background-color: #ff55069a !important;
+}
+
+.navbar {
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    filter: drop-shadow(45);
+}
+
+nav li a {
+    color: white !important;
+}
+
+nav h5 {
+    color: white;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    color: white;
+    padding-top: 4px;
+    font-size: 10px;
+    text-align: center;
+}
