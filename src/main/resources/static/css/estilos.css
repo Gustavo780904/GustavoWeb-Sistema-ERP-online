@@ -18,6 +18,21 @@ nav {
     filter: alpha(opacity=95);
 }
 
+nav li a {
+    color: white !important;
+}
+
+nav h5 {
+    color: white;
+}
+
+.navp {
+    color: white;
+    line-height: 10px;
+    font-size: 2x;
+    text-align: center;
+}
+
 .bg-info {
     background-color: #ff55069a !important;
 }
@@ -26,14 +41,6 @@ nav {
     opacity: 0.75;
     -moz-opacity: 0.75;
     filter: drop-shadow(45);
-}
-
-nav li a {
-    color: white !important;
-}
-
-nav h5 {
-    color: white;
 }
 
 
